@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .gallery img {
+      margin: 0.5em;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="gallery">
+    <script>
+      const imgList = [1000, 1015, 1016, 1032, 1035, 1047];
+
+      // Variable where we will store our img tags
+      let imgTemplate = '';
+
+      // Flex container for images
+      const gallery = document.querySelector('.gallery');
+
+      imgList.forEach(function (item) {
+        console.log(item);
+        imgTemplate += `<img src="https://picsum.photos/id/${item}/250/250" alt="Random Lorem Picsum">`;
+      });
+
+      // Add HTML img string to gallery container
+      gallery.innerHTML = imgTemplate;
+    </script>
+  </main>
+
+</body>
+
+</html>
