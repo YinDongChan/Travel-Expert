@@ -17,7 +17,15 @@ Assignment 1
 
 3. Contact Us form, Login form and Registration form used Tony Grimes class Sample Code: Calculator
 
-4. Help from classmate Ying Jin and friend Yang Wang
+4. used Stack overflow for minimum length of password:
+   https://stackoverflow.com/questions/34084487/how-to-set-minimum-length-of-password
+
+5. Gallery section used Tony Grimes class sample code : loop gallery
+
+
+5. Help from classmate Ying Jin and friend Yang Wang
+
+
 
 
 
