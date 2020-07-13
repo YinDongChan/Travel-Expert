@@ -1,6 +1,16 @@
 # Travel Expert
-Assignment 1 
+
+Author: Yin Dong
+
+Date: July 12, 2020
+
+Course module: CPRG 210
+
+Assignment: Assignment #2 
+
+
 ##Attributes:
+
 1. Navigation bar section learned from YouTube: 
     How to Build a Website with Html & CSS - Part 2 Navigation Bar
     https://www.youtube.com/watch?v=w3eG29WeTMA
@@ -22,8 +32,9 @@ Assignment 1
 
 5. Gallery section used Tony Grimes class sample code : loop gallery
 
+6. Sticky footer section used Tony Grimes class sample code : Sticky-footer
 
-5. Help from classmate Ying Jin and friend Yang Wang
+7. Help from classmate Ying Jin and friend Yang Wang
 
 
 

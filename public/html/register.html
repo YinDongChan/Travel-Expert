@@ -1,35 +1,46 @@
+<!-- Author: Yin Dong
+
+Date: July 12, 2020
+
+Course module: CPRG 210
+
+Assignment: Assignment #2 -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <title>Travel Agent</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <title>Travel Agent</title>
 </head>
 
 <body>
-    <!-- navigation bar section -->
+  <!-- navigation bar section -->
+  <div class="footer-wrapper">
     <nav>
-        <div class="nav-bar">
-          <div class= "logo"><a href="index.html"><i class="fas fa-road"></i><strong>Travel Expert</strong></a></div>
-            <div class= "menu">
-              <button class="btn-navi">Menu Toggle</button>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#gallery">Destination</a></li>
-                    <li><a href="index.html#contact-us">Contact Us</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li class= "wide"><a href="register.html" class= "current">Sign Up</a></li>
-                </ul>
-            </div>
+      <div class="nav-bar">
+        <div class="logo"><a href="index.html"><i class="fas fa-road"></i><strong>Travel Expert</strong></a></div>
+        <div class="menu">
+          <button class="btn-navi">Menu Toggle</button>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#gallery">Destination</a></li>
+            <li><a href="index.html#contact-us">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li class="wide"><a href="register.html" class="current">Sign Up</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
-   
-   <!-- create sign up form -->
-    <form action="#" method= "post" class ="registration-form center form">
+
+    <!-- create sign up form -->
+    <main>
+      <form action="#" method="post" class="registration-form center form">
         <fieldset>
           <h1>Sign Up</h1>
           <div class="wrapper">
@@ -43,24 +54,26 @@
             </div>
             <div>
               <label for="password">Password</label>
-              <input type="password" name="password" id="password" placeholder="Please create a password" minlength= "8" required>
+              <input type="password" name="password" id="password" placeholder="Please create a password" minlength="8"
+                required>
             </div>
             <div>
               <label for="confirm">Confirm Password</label>
               <input type="password" name="confirm" id="confirm" placeholder="Please confirm your password" required>
             </div>
           </div>
-          <button class= "btn" type="submit">Subscribe to Newsletter</button> 
+          <button class="btn" type="submit">Subscribe to Newsletter</button>
           <h3>Don't have an Account with us? SIGN UP now!</h3>
         </fieldset>
+      </form>
+    </main>
+    <footer>
+      &copy; 2020 Yin Dong
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/12f361bcf2.js" crossorigin="anonymous"></script>
 
-    </form>
-     
-<footer>
-    &copy; 2020 Yin Dong
-</footer>
-<script src="../js/script.js"></script>
-<script src="https://kit.fontawesome.com/12f361bcf2.js" crossorigin="anonymous"></script>  
+  </div>
 </body>
 
 </html>

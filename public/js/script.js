@@ -1,8 +1,14 @@
+// Author: Yin Dong
+
+// Date: July 12, 2020
+
+// Course module: CPRG 210
+
+// Assignment: Assignment #2
 
 
-
-
- // Declare our element variables
+ // Menu Toggle button on home page
+ 
  const button = document.querySelector('.btn-navi');
  const menu = document.querySelector('.menu ul');
 
@@ -18,8 +24,8 @@
  button.addEventListener('click', eventHandler);
 
  
- 
- 
+//  Gallery section on home page
+
  const imgList = [
    [1000, 'Holy Cross', 'https://i.picsum.photos/id/1000/5626/3635.jpg?hmac=qWh065Fr_M8Oa3sNsdDL8ngWXv2Jb-EE49ZIn6c0P-g'],
    [1015, 'river', 'https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I'],
@@ -29,7 +35,6 @@
    [1047, 'city', 'https://i.picsum.photos/id/1047/3264/2448.jpg?hmac=ksy0K4uGgm79hAV7-KvsfHY2ZuPA0Oq1Kii9hqkOCfU']
  ]
 
- 
 // Variable where we will store our img tags
 let imgTemplate = '';
 
@@ -44,16 +49,3 @@ imgList.forEach(function (item) {
 // Add HTML img string to gallery container
 gallery.innerHTML = imgTemplate;
 
-
-
-
-
-// function Toggle() { 
-//   const temp = document.getElementById("password"); 
-//   if (temp.type === "password") { 
-//       temp.type = "text"; 
-//   } 
-//   else { 
-//       temp.type = "password"; 
-//   } 
-// } 
